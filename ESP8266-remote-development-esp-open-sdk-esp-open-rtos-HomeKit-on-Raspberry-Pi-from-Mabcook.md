@@ -285,7 +285,7 @@ Code for server: https://github.com/espressif/esptool/blob/master/esp_rfc2217_se
 ### Install
 
 ```
-andreig@Andreis-MacBook-Air ~ % python3 quit;
+andreig@Andreis-MacBook-Air ~ % python3
 xcode-select: note: No developer tools were found, requesting install.
 If developer tools are located at a non-default location on disk, use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, and cancel the installation dialog.
 See `man xcode-select` for more details.
@@ -293,7 +293,7 @@ See `man xcode-select` for more details.
 
 ```
 andreig@Andreis-MacBook-Air ~ % python3 -m pip install --upgrade pip
-python3 -m pip install esptool
+andreig@Andreis-MacBook-Air ~ % python3 -m pip install esptool
 ```
 
 ### Test the install
