@@ -10,7 +10,9 @@ Project documentation: https://github.com/pfalcon/esp-open-sdk
 
 First set of hacks (bash): https://www.studiopieters.nl/esp-homekit-sdk-on-a-raspberry-pi-zero-w/
 
-Mirror for ISL: https://libisl.sourceforge.io (link from https://groups.google.com/g/isl-development/c/JGaMo2VUu_8?pli=1, non removed version https://sourceforge.net/projects/expat/files/expat/2.5.0/)
+Mirror for ISL: https://libisl.sourceforge.io (link from https://groups.google.com/g/isl-development/c/JGaMo2VUu_8?pli=1)
+
+Non removed (no vulnerabilitites) expat version: https://sourceforge.net/projects/expat/files/expat/2.5.0/
 
 Fix for cpp errors: https://raw.githubusercontent.com/ChrisMacGregor/esp-open-sdk/master/1001-fix-reload1-compile-error.patch
 
