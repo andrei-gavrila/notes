@@ -25,4 +25,5 @@ Reboot the Raspberry.
 ## References
 
 Use a Raspberry Pi as a WiFi Hotspot: https://trainedmonkey.com/2024/05/20/using_a_raspberry_pi_as_a_wifi_hotspot
+
 Disable SAE and force the use of WPA2 Personal/SHA-256/AES: https://superuser.com/questions/1771752/m1-macbook-pro-cant-join-linux-hotspot-when-other-devices-can
