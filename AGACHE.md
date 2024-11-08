@@ -14,10 +14,10 @@ Reboot the Raspberry.
 
 ```bash
 sudo nmcli connection add con-name ap ifname wlan1 type wifi ssid "Raspberry Pi AP 01"
-sudo nmcli con modify ap wifi-sec.key-mgmt wpa-psk
-sudo nmcli con modify ap wifi-sec.psk "<PASSWORD>"
-sudo nmcli con modify ap 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
-sudo nmcli con modify ap wifi-sec.pmf disable
+sudo nmcli connection modify ap wifi-sec.key-mgmt wpa-psk
+sudo nmcli connection modify ap wifi-sec.psk "<PASSWORD>"
+sudo nmcli connection modify ap 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
+sudo nmcli connection modify ap wifi-sec.pmf disable
 ```
 
 Reboot the Raspberry.
